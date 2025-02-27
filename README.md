@@ -35,10 +35,10 @@ Use KerasNLP to load the Gemma model for causal language modeling.
 ## Fine-tune using LoRA
 
 Enable LoRA with a chosen rank to reduce the number of trainable parameters while maintaining performance. Compile and fine-tune the model using appropriate optimizers and loss functions.
-LoRA Rank = 4
-Total params: 2,617,270,528 (9.75 GB)
-Trainable params: 2,928,640 (11.17 MB)
-Non-trainable params: 2,614,341,888 (9.74 GB)
+- LoRA Rank = 4
+- Total params: 2,617,270,528 (9.75 GB)
+- Trainable params: 2,928,640 (11.17 MB)
+- Non-trainable params: 2,614,341,888 (9.74 GB)
 
 ## Running Inference
 
